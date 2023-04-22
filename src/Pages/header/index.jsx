@@ -1,13 +1,18 @@
 import React from "react";
 
-import {Wrapper} from "./styles";
+import { FiBell, FiGrid, FiMapPin, FiSearch } from "react-icons/fi";
+
+import { Wrapper } from "./styles";
+
 function Header() {
   return (
-  
     <Wrapper>
-      <div>Header...</div>
+      <FiGrid />
+      <FiBell />
+      <FiMapPin />
+      <FiSearch/> 
+      <input type="search"placeholder="Search city..." />
     </Wrapper>
-    
   );
 }
 export default Header;

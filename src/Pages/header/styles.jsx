@@ -5,5 +5,5 @@ export const Wrapper = styled.div`
   height: 65px;
   align-items: center;
   background-color: #101014;
-  color: yellow;
+  color: white;
 `;

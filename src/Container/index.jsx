@@ -1,4 +1,4 @@
-import Header from "../Pages/header";
+import Header from "../Pages/Header";
 import Clima from "../Pages/clima";
 
 import { Nav } from "./styles";
