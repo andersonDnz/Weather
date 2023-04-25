@@ -1,10 +1,10 @@
-import Header from "../Pages/Header";
-import Clima from "../Pages/clima";
+import Header from "../Components/Header";
+import Clima from "../Components/Clima";
+import ChangeOfRain from "../components/ChangeOfRain";
+import GlobalMap from "../Components/GlobalMap";
+import MaisCidades from "../Components/MaisCidades";
 
 import { Nav } from "./styles";
-import ChangeOfRain from "../Pages/change_of_rain";
-import GlobalMap from "../Pages/global_map";
-import MaisCidades from "../Pages/mais_cidades";
 
 function Container() {
   return (
