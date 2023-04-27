@@ -26,7 +26,6 @@ export const StyledSearch = styled(FiSearch)`
 
 export const Input = styled.input`
   min-width: 345px;
-
   height: 34px;
   color: white;
   margin-left: 25px;
