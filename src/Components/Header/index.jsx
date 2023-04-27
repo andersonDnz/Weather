@@ -1,9 +1,10 @@
 import React from "react";
 
 import { Navbar, StyledBell, StyledGrid, StyledMapPin } from "./styles";
+
 import InputSearch from "../InputSearch";
 
-
+import ToggleSwitch from "../ToggleSwitch";
 
 function Header() {
   return (
@@ -12,9 +13,8 @@ function Header() {
         <StyledGrid />
         <StyledBell />
         <StyledMapPin />
-        <InputSearch/>
+        <InputSearch />
       </Navbar>
-      
     </>
   );
 }

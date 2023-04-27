@@ -1,20 +1,18 @@
 import React from "react";
 
-import { Search, StyledSearch, StyleInput } from "./styles";
+import { Search, Label, StyledSearch, Input } from "./styles";
 
 function InputSearch() {
   return (
     <Search>
-      <StyleInput>
         <form>
           <div>
-            <label htmlFor="text">
+            <Label htmlFor="text">
               <StyledSearch />
-            </label>
-            <input type="search" placeholder="Search city..."></input>
+            </Label>
+            <Input type="search" placeholder="Search city..."></Input>
           </div>
         </form>
-      </StyleInput>
     </Search>
   );
 }

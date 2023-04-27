@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-import { FiBell, FiGrid, FiMapPin } from "react-icons/fi";
+import { FiBell, FiGrid, FiMapPin, FiSun, FiMoon } from "react-icons/fi";
 
 export const Navbar = styled.nav`
+  color: white;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -11,7 +12,6 @@ export const Navbar = styled.nav`
 `;
 
 export const StyledGrid = styled(FiGrid)`
-  color: white;
   padding: 9px;
   padding-left: 10px;
   height: 35px;
@@ -22,7 +22,6 @@ export const StyledGrid = styled(FiGrid)`
 `;
 
 export const StyledBell = styled(FiBell)`
-  color: white;
   padding: 9px;
   padding-left: 10px;
   margin-left: 65px;
@@ -34,7 +33,6 @@ export const StyledBell = styled(FiBell)`
 `;
 
 export const StyledMapPin = styled(FiMapPin)`
-  color: white;
   padding: 9px;
   padding-left: 10px;
   margin-left: 65px;
@@ -43,3 +41,5 @@ export const StyledMapPin = styled(FiMapPin)`
   border-radius: 100%;
   cursor: pointer;
 `;
+
+
