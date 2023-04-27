@@ -1,8 +1,9 @@
 import React from "react";
 
-import { FiMapPin, FiSearch } from "react-icons/fi";
+import { Navbar, StyledBell, StyledGrid, StyledMapPin } from "./styles";
+import InputSearch from "../InputSearch";
 
-import { Navbar, StyledBell, StyledGrid } from "./styles";
+
 
 function Header() {
   return (
@@ -10,7 +11,10 @@ function Header() {
       <Navbar>
         <StyledGrid />
         <StyledBell />
+        <StyledMapPin />
+        <InputSearch/>
       </Navbar>
+      
     </>
   );
 }
