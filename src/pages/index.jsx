@@ -13,8 +13,8 @@ function Pages() {
         <Header />
         <Clima />
         <ChangeOfRain />
-        <GlobalMap/>
-        <MaisCidades/>
+        <GlobalMap />
+        <MaisCidades />
       </div>
     </Nav>
   );
