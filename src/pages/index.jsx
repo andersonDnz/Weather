@@ -4,20 +4,18 @@ import ChangeOfRain from "../components/ChangeOfRain";
 import GlobalMap from "../components/GlobalMap";
 import MaisCidades from "../components/MaisCidades";
 
-import { Nav } from "./styles";
-
-function Pages() {
-  return (
-    <Nav>
-      <div>
-        <Header />
-        <Clima />
-        <ChangeOfRain />
-        <GlobalMap/>
-        <MaisCidades/>
-      </div>
-    </Nav>
-  );
+const todasPaginas = {
+  Header,
+  Clima,
+  ChangeOfRain,
+  GlobalMap,
+  MaisCidades,
 }
 
-export default Pages;
+export {
+  Header,
+  Clima,
+  ChangeOfRain,
+  GlobalMap,
+  MaisCidades,
+}

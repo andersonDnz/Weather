@@ -21,7 +21,7 @@ export const Label = styled.label`
 
 export const StyledSearch = styled(FiSearch)`
   color: white;
-  height: 20px;
+  cursor: pointer;
 `;
 
 export const Input = styled.input`
