@@ -13,17 +13,13 @@ export const Slider = styled.span`
 
   &:before {
     content: "";
-
     position: absolute;
     left: 1px;
     bottom: 2px;
-
     width: 38px;
     height: 38px;
     border-radius: 100%;
-
     background-color: ${({ toggle, color }) => (toggle ? "white" : color)};
-
     transition: 0.4s;
   }
 `;

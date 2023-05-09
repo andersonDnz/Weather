@@ -4,7 +4,7 @@ import {
   ChangeOfRain,
   GlobalMap,
   MaisCidades,
-} from "../pages/index.jsx";
+} from "../components/Paginas/index";
 
 import { Nav } from "./styles.js";
 
