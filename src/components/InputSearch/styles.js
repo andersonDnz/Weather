@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { FiSearch } from "react-icons/fi";
 
-export const Search = styled.form`
+export const Search = styled.div`
   display: flex;
   border: none;
   background-color: #1e1e1e;

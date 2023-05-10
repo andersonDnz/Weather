@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { FiBell, FiGrid, FiMapPin, FiSun, FiMoon } from "react-icons/fi";
+import { FiBell, FiGrid, FiMapPin } from "react-icons/fi";
 
 export const Navbar = styled.nav`
   color: white;

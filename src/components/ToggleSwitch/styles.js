@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Slider = styled.span`
   position: absolute;
   cursor: pointer;
