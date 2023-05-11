@@ -9,6 +9,7 @@ import {
 
 import InputSearch from "../InputSearch";
 import ToggleSwitch from "../ToggleSwitch";
+import Perfil from "../Perfil";
 
 function Header() {
   return (
@@ -19,6 +20,7 @@ function Header() {
         <StyledMapPin />
         <InputSearch />
         <ToggleSwitch color="#1e1e1e"/>
+        <Perfil/>
       </Navbar>
     </>
   );
