@@ -8,7 +8,7 @@ import {
 
 import { Nav } from "./styles.js";
 
-export function Home() {
+export function Pages() {
   return (
     <Nav>
       <div>
@@ -23,4 +23,4 @@ export function Home() {
 }
 
 
-export default Home;
+export default Pages;

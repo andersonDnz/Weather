@@ -4,17 +4,16 @@ import {
   Search, 
   Label, 
   StyledSearch, 
-  Input 
-} from "./styles";
+  Input } from "./styles";
 
 function InputSearch() {
   return (
     <Search>
       <div>
-        <Label htmlFor="text">
-          <StyledSearch />
-        </Label>
-        <Input type="search" placeholder="Search city..."></Input>
+      <Label htmlFor="text">
+      <StyledSearch/>
+      </Label>
+      <Input type="search" placeholder="Search city..." />
       </div>
     </Search>
   );
