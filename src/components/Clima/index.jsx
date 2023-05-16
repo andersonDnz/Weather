@@ -1,10 +1,31 @@
-import { Secttion } from "./styles";
+import React from "react";
 
-function Clima() {
+import { useState } from "react";
+
+import { A, Section, Switchs, Input, Sliders, } from "./styles";
+
+function Clima({ checked = false, color = "#1e1e1e" }) {
+  const [toggleOptions, setToggleOptions] = useState(checked);
   return (
-    <Secttion>
-      <div>Clima...</div>
-    </Secttion>
+    <Section>
+      
+          <div>
+            <A href="Today">Today</A>
+            <A href="Tomorrow">Tomorrow</A>
+            <A href="Next">Next 7 days</A>
+          </div>
+          <Switchs>
+            <Input
+              {...{ color }}
+              type="checkbox"
+              defaultChecked={toggleOptions}
+            />
+            <Sliders
+              {...{ toggleOptions, color }}
+              onClick={() => setToggleOptions(!toggleOptions)}
+            />
+          </Switchs>
+    </Section>
   );
 }
 

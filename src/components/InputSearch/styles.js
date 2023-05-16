@@ -7,14 +7,14 @@ export const Search = styled.div`
   border: none;
   background-color: #1e1e1e;
   border-radius: 20px 20px;
-  margin-left: 11rem;
+  margin-left: 10rem;
   width: 25rem;
   height: 40px;
   align-items: center;
 `;
 
 export const Label = styled.label`
-  margin-left: 8px;
+  margin-left: 9px;
   height: 40px;
   align-items: center;
 `

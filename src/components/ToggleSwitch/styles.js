@@ -8,19 +8,18 @@ export const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: ${({ toggle, color }) => (toggle ? color : "white")};
-  border-radius: 15px;
+  background-color: ${({ toggle, color }) => (toggle ? color : "#D6E9F5")};
+  border-radius: 25px 25px;
   transition: 0.4s;
 
   &:before {
     content: "";
     position: absolute;
-    left: 1px;
-    bottom: 2px;
+    left: 0px;
     width: 38px;
     height: 38px;
     border-radius: 100%;
-    background-color: ${({ toggle, color }) => (toggle ? "white" : color)};
+    background-color: ${({ toggle, color }) => (toggle ? "#D6E9F5" : color)};
     transition: 0.4s;
   }
 `;
@@ -37,9 +36,8 @@ export const Switch = styled.label`
   width: 4rem;
   height: 40px;
   margin-left: 15rem;
-  background-color: ${({ toggle, color }) => (toggle ? color : "white")};
-  border-radius: 65px;
-  margin-bottom: 15px 15px;
+  background-color: ${({ toggle, color }) => (toggle ? color : "#D6E9F5")};
+  border-radius: 65px 65px;
   transition: 0.4s;
 
   & ${Input} {
