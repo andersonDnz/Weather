@@ -7,6 +7,7 @@ import {
   StyledMapPin 
 } from "./styles";
 
+
 import InputSearch from "../InputSearch";
 import ToggleSwitch from "../ToggleSwitch";
 import Perfil from "../Perfil";

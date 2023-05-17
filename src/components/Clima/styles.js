@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Section = styled.div`
   height: 20rem;
   width: 20px;
@@ -9,14 +8,13 @@ export const Section = styled.div`
   margin-right: 0vw;
   margin-left: 0vw;
   min-width: 45vw;
-  //Estilo dinamico, assim q posicionar os components a div se ajusta corretamente!
 `;
 
 export const A = styled.a`
   color: white;
   text-decoration: none;
   margin-right: 15px;
-  
+
   &:hover {
     color: blue;
   }
@@ -29,8 +27,9 @@ export const Sliders = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: ${({ toggleOptions, color }) => (toggleOptions ? color : "#D6E9F5")};
-  border-radius: 25px 25px ;
+  background-color: ${({ toggleOptions, color }) =>
+    toggleOptions ? color : "#D6E9F5"};
+  border-radius: 25px 25px;
   transition: 0.4s;
 
   &:before {
@@ -39,8 +38,9 @@ export const Sliders = styled.span`
     left: 0px;
     width: 95px;
     height: 40px;
-    border-radius: 25px  25px;
-    background-color: ${({ toggleOptions, color }) => (toggleOptions ? "#D6E9F5" : color)};
+    border-radius: 25px 25px;
+    background-color: ${({ toggleOptions, color }) =>
+      toggleOptions ? "#D6E9F5" : color};
     transition: 0.4s;
   }
 `;
@@ -57,7 +57,8 @@ export const Switchs = styled.label`
   width: 10rem;
   height: 40px;
   margin-left: 18px;
-  background-color: ${({ toggleOptions, color }) => (toggleOptions ? color : "#D6E9F5")};
+  background-color: ${({ toggleOptions, color }) =>
+    toggleOptions ? color : "#D6E9F5"};
   border-radius: 25px 25px;
   transition: 0.4s;
 

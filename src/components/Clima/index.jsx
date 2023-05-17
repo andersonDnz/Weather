@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState }from "react";
 
-import { useState } from "react";
 
-import { A, Section, Switchs, Input, Sliders, } from "./styles";
+import { 
+  A, 
+  Section, 
+  Switchs, 
+  Input, 
+  Sliders, 
+} from "./styles";
 
-function Clima({ checked = false, color = "#1e1e1e" }) {
+function Clima({ checked = false, color = "#1e1e1e"}) {
   const [toggleOptions, setToggleOptions] = useState(checked);
   return (
     <Section>
@@ -25,6 +30,7 @@ function Clima({ checked = false, color = "#1e1e1e" }) {
               onClick={() => setToggleOptions(!toggleOptions)}
             />
           </Switchs>
+          
     </Section>
   );
 }

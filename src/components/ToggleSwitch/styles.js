@@ -1,7 +1,20 @@
 import styled from "styled-components";
 
+import { FiMoon, FiSun } from "react-icons/fi";
+
+export const StyledMoon = styled(FiMoon)`
+  color: white;
+  margin-left: 5px;
+`
+
+export const StyledSun = styled(FiSun)`
+  margin-left: 20px;
+  color: black;
+`
 
 export const Slider = styled.span`
+  display: flex;
+  align-items: center;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -15,7 +28,7 @@ export const Slider = styled.span`
   &:before {
     content: "";
     position: absolute;
-    left: 0px;
+    left: 1px;
     width: 38px;
     height: 38px;
     border-radius: 100%;
@@ -35,7 +48,7 @@ export const Switch = styled.label`
   display: inline-block;
   width: 4rem;
   height: 40px;
-  margin-left: 15rem;
+  margin-left: 35px;
   background-color: ${({ toggle, color }) => (toggle ? color : "#D6E9F5")};
   border-radius: 65px 65px;
   transition: 0.4s;

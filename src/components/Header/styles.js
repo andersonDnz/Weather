@@ -5,6 +5,7 @@ import { FiBell, FiGrid, FiMapPin } from "react-icons/fi";
 export const Navbar = styled.nav`
   color: white;
   height: 5rem;
+ 
   display: flex;
   align-items: center;
   background-color: #101014;
