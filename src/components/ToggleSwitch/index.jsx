@@ -14,6 +14,7 @@ function ToggleSwitch({ checked = false, color = "#1e1e1e" }) {
       <Input {...{ color }} type="checkbox" defaultChecked={toggle} />
 
       <Slider {...{ toggle, color }} onClick={() => setToggle(!toggle)}>
+
         <StyledMoon/>
         <StyledSun/>
       </Slider>

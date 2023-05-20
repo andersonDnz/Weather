@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
-import { FiBell, FiGrid, FiMapPin } from "react-icons/fi";
+import { 
+  FiBell, 
+  FiGrid, 
+  FiMapPin 
+} from "react-icons/fi";
+
 
 export const Navbar = styled.nav`
   color: white;
   height: 5rem;
- 
   display: flex;
   align-items: center;
-  background-color: #101014;
+  background-color: ${props => props.theme.colors.primary};
   margin-left: 15px;
 `;
 

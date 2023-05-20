@@ -21,6 +21,8 @@ export const A = styled.a`
 `;
 
 export const Sliders = styled.span`
+  display: flex;
+  align-items: center;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -48,6 +50,7 @@ export const Sliders = styled.span`
 export const Input = styled.input`
   &:checked + ${Sliders}:before {
     transform: translateX(65.6px);
+    
   }
 `;
 

@@ -3,13 +3,13 @@ import styled from "styled-components";
 import { FiMoon, FiSun } from "react-icons/fi";
 
 export const StyledMoon = styled(FiMoon)`
-  color: white;
+  color: black;
   margin-left: 5px;
 `
 
 export const StyledSun = styled(FiSun)`
   margin-left: 20px;
-  color: black;
+  color: white;
 `
 
 export const Slider = styled.span`
@@ -21,7 +21,7 @@ export const Slider = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: ${({ toggle, color }) => (toggle ? color : "#D6E9F5")};
+  background-color: ${({ toggle, color }) => (toggle ? "#D6E9F5" : color)};
   border-radius: 25px 25px;
   transition: 0.4s;
 
@@ -32,7 +32,7 @@ export const Slider = styled.span`
     width: 38px;
     height: 38px;
     border-radius: 100%;
-    background-color: ${({ toggle, color }) => (toggle ? "#D6E9F5" : color)};
+    background-color: ${({ toggle, color }) => (toggle ? color: "#D6E9F5")};
     transition: 0.4s;
   }
 `;
