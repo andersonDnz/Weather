@@ -2,13 +2,13 @@ import React from "react";
 
 import { ThemeProvider } from "styled-components";
 
-import temaDark from "../../assets/theme"
+import tema from "../theme"
 
 import { 
   Navbar, 
   StyledBell, 
   StyledGrid, 
-  StyledMapPin,
+  StyledMapPin 
 } from "./styles";
 
 
@@ -18,14 +18,14 @@ import Perfil from "../Perfil";
 
 function Header() {
   return (
-    <ThemeProvider theme={temaDark}>
+    <ThemeProvider theme={tema}>
       <Navbar>
         <StyledGrid />
         <StyledBell />
         <StyledMapPin />
         <InputSearch />
-        <ToggleSwitch color="#1e1e1e"/>
-        <Perfil/>
+        <ToggleSwitch color="#1e1e1e" />
+        <Perfil />
       </Navbar>
     </ThemeProvider>
   );
