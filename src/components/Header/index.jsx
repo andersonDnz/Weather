@@ -2,15 +2,9 @@ import React from "react";
 
 import { ThemeProvider } from "styled-components";
 
-import tema from "../theme"
+import tema from "../../theme/theme";
 
-import { 
-  Navbar, 
-  StyledBell, 
-  StyledGrid, 
-  StyledMapPin 
-} from "./styles";
-
+import { Navbar, StyledBell, StyledGrid, StyledMapPin } from "./styles";
 
 import InputSearch from "../InputSearch";
 import ToggleSwitch from "../ToggleSwitch";

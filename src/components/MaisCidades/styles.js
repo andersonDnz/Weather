@@ -8,9 +8,7 @@ export const Cidades = styled.div`
   display: inline-block;
   background-color: #ff0000a9;
   font-size: 3vw;
-  margin-left: 2vw;
   margin-right: 1vw;
   text-align: center;
-  min-width: 50vw;
-
+  min-width: 45vw;
 `

@@ -1,20 +1,23 @@
 import {
   Header,
   Clima,
+  ChangeOfRain,
+  GlobalMap,
+  MaisCidades,
 } from "../components";
 
-import { Nav } from "./styles.js";
+import { Container } from "./styles.js";
 
 export function Pages() {
   return (
-    <Nav>
-      <div>
-        <Header/>
-        <Clima/>
-      </div>
-    </Nav>
+    <Container>
+      <Header />
+      <Clima />
+      <ChangeOfRain />
+      <GlobalMap />
+      <MaisCidades />
+    </Container>
   );
 }
-
 
 export default Pages;

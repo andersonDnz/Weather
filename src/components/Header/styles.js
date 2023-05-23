@@ -7,6 +7,7 @@ export const Navbar = styled.nav`
   width: 100%;
   height: 5rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: ${(props) => props.theme.colors.primary};
 `;

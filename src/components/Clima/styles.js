@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
+  
   height: 20rem;
-  width: 20px;
-  display: flex;
+  display: inline-block;
   background-color: green;
-  margin-right: 0vw;
-  margin-left: 0vw;
   min-width: 45vw;
 `;
 

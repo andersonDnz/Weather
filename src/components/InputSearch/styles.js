@@ -16,7 +16,7 @@ export const Search = styled.div`
 export const Label = styled.label`
   margin-left: 9px;
   height: 40px;
-  align-items: center;
+
 `
 
 export const StyledSearch = styled(FiSearch)`
